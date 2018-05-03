@@ -15,7 +15,7 @@ col = db.CADUSER
 
 #variavel
 
-endereco = {'CEP: ' : '71676-130', 'Tipo de Endereço: ' : 'Bairro', 'Endereço: ' : 'SHDB QL 32 Conjunto 6', 'Número: ' : '6', 'Complemento: ' : 'Villages Alvorada', 'Bairro' : 'Lago Sul' , 'Estado: ' : 'Distrito Federal', 'Cidade: ' : 'Brasília' , 'Data de Modificação: ' : datetime.datetime.utcnow()}
+endereco = {}
 
 #Insert
 col.insert_one(endereco)
