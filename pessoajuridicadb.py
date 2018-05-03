@@ -15,7 +15,7 @@ col = db.CADUSER
 
 #variavel
 
-pessoajuridica = {'CNPJ: ' : '37.136.082/0001-06', 'Razão Social: ' : 'REAL FREIOS, PECAS PARA VEICULOS, SERVICOS E TRANSPORTES LTDA - ME', 'Nome Fantasia: ' : 'REAL FREIOS PECAS E SERVICOS', 'IE: ' : 'N', 'IM: ' : 'N', 'Isento: ' : 'S', 'Data de Modificação: ' : datetime.datetime.utcnow()}
+pessoajuridica = {}
 
 #Insert
 col.insert_one(pessoajuridica)
