@@ -15,7 +15,7 @@ col = db.CADUSER
 
 #variavel
 
-usuario = {'Nome de Usuário: ' : 'LucaBravo', 'Senha: ' : '123', 'Tipo: ' : 'Admin', 'Data de Modificação: ' : datetime.datetime.utcnow()}
+usuario = {}
 
 #Insert
 col.insert_one(usuario)
