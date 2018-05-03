@@ -15,7 +15,7 @@ col = db.CADUSER
 
 #variavel
 
-pessoa = {'Nome: ' : 'Lucas Ciryllo', 'Sobrenome: ' : 'Moreira Bizinoto', 'Sexo: ' : 'M', 'Data de Nascimento: ' : '08/10/1991' , 'CPF: ' : '04437851129', 'RG: ' : '2508448', 'Data de Modificação: ' : datetime.datetime.utcnow()}
+pessoa = {}
 
 #Insert
 col.insert_one(pessoa)
