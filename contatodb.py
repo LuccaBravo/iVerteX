@@ -15,7 +15,7 @@ col = db.CADUSER
 
 #variavel
 
-contato = {'Telefone: ' : '061-98277-7007', 'E-Mail: ' : 'bizinoto.jus@gmail.com', 'WebSite: ' : 'www.ivertex.com.br' , 'Data de Modificação: ' : datetime.datetime.utcnow()}
+contato = {}
 
 #Insert
 col.insert_one(contato)
